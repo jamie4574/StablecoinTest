@@ -1,0 +1,12 @@
+{
+  "name": "stablecoin-data-fetcher",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Daily CoinGecko data fetch for Stablecoin Use Case Map",
+  "scripts": {
+    "fetch": "node scripts/fetch-data.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
