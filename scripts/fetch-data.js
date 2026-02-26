@@ -24,7 +24,12 @@ const COINS = {
   'usd-coin':             { useCase: 'payments' },
   'paypal-usd':           { useCase: 'payments' },
   'euro-coin':            { useCase: 'payments' },
-  'pax-dollar':           { useCase: 'payments' },
+  'first-digital-usd':   { useCase: 'payments' },  // FDUSD
+  'ripple-usd':           { useCase: 'payments' },  // RLUSD
+  'usd1':                 { useCase: 'payments' },  // USD1 (World Liberty Fi)
+  'xsgd':                 { useCase: 'payments' },  // XSGD
+  'stasis-eurs':          { useCase: 'payments' },  // EURS
+  'brz':                  { useCase: 'payments' },  // BRZ
 
   // DeFi
   'dai':                  { useCase: 'defi' },
@@ -32,25 +37,38 @@ const COINS = {
   'liquity-usd':          { useCase: 'defi' },
   'usds':                 { useCase: 'defi' },
   'crvusd':               { useCase: 'defi' },
+  'gho':                  { useCase: 'defi' },      // GHO (Aave)
+  'magic-internet-money': { useCase: 'defi' },      // MIM
+  'dola-usd':             { useCase: 'defi' },      // DOLA
+  'alchemix-usd':         { useCase: 'defi' },      // alUSD
+  'bold':                 { useCase: 'defi' },      // BOLD (Liquity v2)
 
   // Treasury
-  'mountain-protocol-usdm': { useCase: 'treasury' },
-  'ethena-usde':          { useCase: 'treasury' },
-  'ondo-us-dollar-yield': { useCase: 'treasury' },
-  'usual-usd':            { useCase: 'treasury' },
+  'mountain-protocol-usdm':    { useCase: 'treasury' },
+  'ethena-usde':               { useCase: 'treasury' },
+  'ethena-usdtb':              { useCase: 'treasury' }, // USDTB
+  'gemini-dollar':             { useCase: 'treasury' }, // GUSD
+  'paxos-standard':            { useCase: 'treasury' }, // USDP
+  'figure-markets-yield-token': { useCase: 'treasury' }, // YLDS
+  'ondo-us-dollar-yield':      { useCase: 'treasury' },
+  'usual-usd':                 { useCase: 'treasury' },
   'blackrock-usd-institutional-digital-liquidity-fund': { useCase: 'treasury' },
 
   // Remittance
   'celo-dollar':          { useCase: 'remittance' },
-  'trueusd':              { useCase: 'remittance' },
-  'stasis-eurs':          { useCase: 'remittance' },
   'tether-eurt':          { useCase: 'remittance' },
+  'glo-dollar':           { useCase: 'remittance' }, // USDGLO
 
   // Yield
   'savings-dai':          { useCase: 'yield' },
   'staked-frax-ether':    { useCase: 'yield' },
   'aave-usdc':            { useCase: 'yield' },
-  'compound-usdc':        { useCase: 'yield' },
+  'resolv-usr':           { useCase: 'yield' },     // USR
+  'usdb':                 { useCase: 'yield' },     // USDB (Blast)
+  'usd-plus':             { useCase: 'yield' },     // USD+
+  'avusd':                { useCase: 'yield' },     // avUSD (Avalon)
+  'defidollar':           { useCase: 'yield' },     // DUSD
+  'falcon-finance-usd':   { useCase: 'yield' },     // USDF
 };
 
 const COIN_IDS = Object.keys(COINS);
